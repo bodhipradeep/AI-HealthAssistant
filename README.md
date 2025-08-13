@@ -1,5 +1,5 @@
 ﻿# 🏥 AI Health Assistant
-## *files not uploaded due to updating some more featur*
+## *files & dir not uploaded due to updating some more features*
 An **Agentic RAG-powered medical reasoning assistant** fine-tuned on clinical data to analyze medical reports, detect diseases from symptoms & report data, and provide **advisory recommendations** with **human-in-the-loop validation**.
 
 Built using **LangGraph**, **ChromaDB**, **HuggingFace Transformers**, **Unsloth QLoRA**, and a **Streamlit + FastAPI UI**.  
@@ -83,5 +83,6 @@ It does not provide medical advice. Always consult a qualified healthcare profes
 
 ## 📜 License
 MIT License © 2025 Pradeep Kumar
+
 
 
