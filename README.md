@@ -12,6 +12,7 @@ Containerized with **Docker** for cross-platform reproducibility.
   &nbsp;&nbsp;&nbsp;
   <img src="https://github.com/user-attachments/assets/6e843547-20fe-4b3a-8009-4674138a87f7" alt="FastAPI Docs" width="45%" />
 </p>
+
 ### Result Screenshot
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4165ebc5-7e2b-4a41-88cf-4a67fd0eccb9" alt="Details Criteria" width="45%" /> 
@@ -97,6 +98,7 @@ It does not provide medical advice. Always consult a qualified healthcare profes
 
 ## 📜 License
 MIT License © 2025 Pradeep Kumar
+
 
 
 
