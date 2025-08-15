@@ -10,8 +10,8 @@ Containerized with **Docker** for cross-platform reproducibility.
   <img src="https://github.com/user-attachments/assets/6730957b-82f0-4529-972a-b122c287590e" />" alt="Main Page" 45%" /> 
   &nbsp;&nbsp;&nbsp;
   <img src="https://github.com/user-attachments/assets/6e843547-20fe-4b3a-8009-4674138a87f7" />" alt="FastAPI Docs" width="45%" />
-<!-- </p>
-<p align="center"> -->
+</p>
+<p align="center">
   <img src="https://github.com/user-attachments/assets/4165ebc5-7e2b-4a41-88cf-4a67fd0eccb9" />" />" alt="Details Criteria" width="45%" /> 
   &nbsp;&nbsp;&nbsp;
   <img src="https://github.com/user-attachments/assets/18e333ab-0d20-4dad-bcdf-39a82c6aec06" />" />" alt="Result" width="45%" />
@@ -95,6 +95,7 @@ It does not provide medical advice. Always consult a qualified healthcare profes
 
 ## 📜 License
 MIT License © 2025 Pradeep Kumar
+
 
 
 
