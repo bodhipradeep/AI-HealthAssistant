@@ -8,7 +8,7 @@ Containerized with **Docker** for cross-platform reproducibility.
 ---
 ### Sample Screenshot
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6730957b-82f0-4529-972a-b122c287590e" alt="Main Page" width="45%" /> 
+  <img src="https://github.com/user-attachments/assets/c7429d88-4273-4f73-8160-932050cb6d59" alt="Main Page" width="45%" /> 
   &nbsp;&nbsp;&nbsp;
   <img src="https://github.com/user-attachments/assets/6e843547-20fe-4b3a-8009-4674138a87f7" alt="FastAPI Docs" width="45%" />
 </p>
@@ -98,6 +98,7 @@ It does not provide medical advice. Always consult a qualified healthcare profes
 
 ## 📜 License
 MIT License © 2025 Pradeep Kumar
+
 
 
 
