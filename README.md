@@ -6,19 +6,25 @@ Built using **LangGraph**, **ChromaDB**, **HuggingFace Transformers**, **Unsloth
 Containerized with **Docker** for cross-platform reproducibility.
 
 ---
-### Sample Screenshot
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/c7429d88-4273-4f73-8160-932050cb6d59" alt="Main Page" width="45%" /> 
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/6e843547-20fe-4b3a-8009-4674138a87f7" alt="FastAPI Docs" width="45%" />
-  <img src="https://github.com/user-attachments/assets/4165ebc5-7e2b-4a41-88cf-4a67fd0eccb9" alt="Details Criteria" width="45%" /> 
-</p>
 
-### Result Screenshot
-<p align="center">
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/18e333ab-0d20-4dad-bcdf-39a82c6aec06" alt="Result" width="45%" />
-</p>
+<div style="display: flex; align-items: flex-start;">
+  
+  <!-- Left side image -->
+  <div style="flex: 1; text-align: left;">
+    <h3>Workflow Chart</h3>
+    <img src="https://github.com/user-attachments/assets/c7429d88-4273-4f73-8160-932050cb6d59" alt="LangGraph Workflow" width="100%" /> 
+  </div>
+
+  <!-- Right side stacked images -->
+  <div style="flex: 1; text-align: right;">
+    <h3>Result Screenshot</h3>
+    <img src="https://github.com/user-attachments/assets/6e843547-20fe-4b3a-8009-4674138a87f7" alt="FastAPI Docs" width="100%" />
+    &nbsp;&nbsp;&nbsp;
+    <img src="https://github.com/user-attachments/assets/4165ebc5-7e2b-4a41-88cf-4a67fd0eccb9" alt="Details Criteria" width="100%" /> 
+    &nbsp;&nbsp;&nbsp;
+    <img src="https://github.com/user-attachments/assets/18e333ab-0d20-4dad-bcdf-39a82c6aec06" alt="Result" width="100%" />
+  </div>
+</div
 
 ---
 
@@ -98,6 +104,7 @@ It does not provide medical advice. Always consult a qualified healthcare profes
 
 ## 📜 License
 MIT License © 2025 Pradeep Kumar
+
 
 
 
