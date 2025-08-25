@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+streamlit
+langchain
+langchain-groq
+langchain-community
+langchain-core
+langgraph
+requests
+python-dotenv
+pypdf
+gTTS

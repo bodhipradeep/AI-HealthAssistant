@@ -1,0 +1,15 @@
+version: "3.11"
+services:
+  myapp:
+    build: .
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+
+
+# # Build image
+# docker-compose build
+
+# # Run container with env vars
+# docker-compose up

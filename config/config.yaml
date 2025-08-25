@@ -1,0 +1,13 @@
+llm:
+  openai:
+    provider: "openai"
+    model_name: "o4-mini"
+  groq:
+    provider: "groq"
+    model_name: "llama-3.1-8b-instant"
+  mistral:
+    provider: "mistral"
+    model_name: "biomistral/biomistral-7b"
+  fine-tuned:
+    provider: "huggingface"
+    model_name: "fine-tuned-biomistral"
