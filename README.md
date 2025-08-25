@@ -6,29 +6,15 @@ AI Health Assistant is an experimental multi-agent medical reasoning system that
 - Python 3.11+
 - FastAPI (backend)
 - Streamlit (front-end)
+- Speech AI (Audio output)
 - LangGraph (workflow & HITL) 
 - LangChain / Transformers (LLM adapters)
 - Unsloth QLoRA (For Fine-Tuned 2x faster)
 - Docker for containerization
 
 ---
-
-<table>
-<tr>
-<td width="45%">
-<h3>Workflow Chart</h3>
-<img src="https://github.com/user-attachments/assets/c7429d88-4273-4f73-8160-932050cb6d59" alt="LangGraph Workflow" width="100%" /> 
-</td>
-<td width="45%">
-<h3>Result Screenshot</h3>
-<img src="https://github.com/user-attachments/assets/6e843547-20fe-4b3a-8009-4674138a87f7" alt="FastAPI Docs" width="100%" />
-&nbsp;&nbsp;&nbsp;
-<img src="https://github.com/user-attachments/assets/4165ebc5-7e2b-4a41-88cf-4a67fd0eccb9" alt="Details Criteria" width="100%" /> 
-&nbsp;&nbsp;&nbsp;
-<img src="https://github.com/user-attachments/assets/18e333ab-0d20-4dad-bcdf-39a82c6aec06" alt="Result" width="100%" />
-</td>
-</tr>
-</table>
+## Output Screenshot
+<img width="1679" height="915" alt="Screenshot 2025-08-24 183419" src="https://github.com/user-attachments/assets/70f50ee8-4006-4824-9044-cfb69e8bbdd9" />
 
 ---
 ## 📌 Features
@@ -51,6 +37,7 @@ AI Health Assistant is an experimental multi-agent medical reasoning system that
 ---
 ## Project structure
 
+```bash
 AI-HealthAssistant/
 ├── Dockerfile                # Docker container definition (runs uvicorn fastapi_app:app)
 ├── docker-compose.yml        # Example compose file
@@ -84,21 +71,21 @@ AI-HealthAssistant/
 │   ├── model_loader.py       # Fine-Tuned LLM/model initialization and selection
 │   └── config_loader.py
 └── .env.example              # .env file for api key requirement
-
+```
 --- 
 ## 🐳 Docker Deployment
 
 Build and run locally:
 
 ```powershell
-; docker build -t ai-healthassistant .
-; docker run -p 8000:8000 --env-file .env ai-healthassistant
+docker build -t ai-healthassistant .
+docker run -p 8000:8000 --env-file .env ai-healthassistant
 ```
 
 Using docker-compose:
 
 ```powershell
-; docker-compose up --build
+docker-compose up --build
 ```
 
 ## 📦 Pull from Docker Hub
@@ -112,7 +99,7 @@ docker pull bodhipradeep/ai-health-assistant
 docker run -p 8000:8000 --env-file .env bodhipradeep/ai-health-assistant
 ```
 ---
-## How it works (detailed flow — based on `workflow/graph_builder.py`)
+## How it works
 
 The LangGraph state graph composes the multi-agent reasoning pipeline as follows:
 
@@ -150,7 +137,3 @@ Pradeep Kumar
 
 - LinkedIn: [Pradeep Kumar](https://www.linkedin.com/in/bodhi-pradeep/)  
 - Email: [Gmail](mailto:pradeep.kmr.pro@gmail.com)
-
-
-
-
