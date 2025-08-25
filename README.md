@@ -99,7 +99,7 @@ docker pull bodhipradeep/ai-health-assistant
 docker run -p 8000:8000 --env-file .env bodhipradeep/ai-health-assistant
 ```
 ---
-## How it works (detailed flow — based on `workflow/graph_builder.py`)
+## How it works
 
 The LangGraph state graph composes the multi-agent reasoning pipeline as follows:
 
@@ -137,6 +137,7 @@ Pradeep Kumar
 
 - LinkedIn: [Pradeep Kumar](https://www.linkedin.com/in/bodhi-pradeep/)  
 - Email: [Gmail](mailto:pradeep.kmr.pro@gmail.com)
+
 
 
 
