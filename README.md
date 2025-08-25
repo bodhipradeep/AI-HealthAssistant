@@ -78,14 +78,14 @@ AI-HealthAssistant/
 Build and run locally:
 
 ```powershell
-; docker build -t ai-healthassistant .
-; docker run -p 8000:8000 --env-file .env ai-healthassistant
+docker build -t ai-healthassistant .
+docker run -p 8000:8000 --env-file .env ai-healthassistant
 ```
 
 Using docker-compose:
 
 ```powershell
-; docker-compose up --build
+docker-compose up --build
 ```
 
 ## 📦 Pull from Docker Hub
@@ -137,6 +137,7 @@ Pradeep Kumar
 
 - LinkedIn: [Pradeep Kumar](https://www.linkedin.com/in/bodhi-pradeep/)  
 - Email: [Gmail](mailto:pradeep.kmr.pro@gmail.com)
+
 
 
 
