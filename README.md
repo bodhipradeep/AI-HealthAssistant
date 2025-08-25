@@ -37,6 +37,7 @@ AI Health Assistant is an experimental multi-agent medical reasoning system that
 ---
 ## Project structure
 
+```bash
 AI-HealthAssistant/
 ├── Dockerfile                # Docker container definition (runs uvicorn fastapi_app:app)
 ├── docker-compose.yml        # Example compose file
@@ -70,7 +71,7 @@ AI-HealthAssistant/
 │   ├── model_loader.py       # Fine-Tuned LLM/model initialization and selection
 │   └── config_loader.py
 └── .env.example              # .env file for api key requirement
-
+```
 --- 
 ## 🐳 Docker Deployment
 
@@ -136,6 +137,7 @@ Pradeep Kumar
 
 - LinkedIn: [Pradeep Kumar](https://www.linkedin.com/in/bodhi-pradeep/)  
 - Email: [Gmail](mailto:pradeep.kmr.pro@gmail.com)
+
 
 
 
