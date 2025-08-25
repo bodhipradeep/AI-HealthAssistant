@@ -1,0 +1,43 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Editor & OS junk
+.vscode/
+
+
+# Build & dist
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Test/coverage/output
+htmlcov/
+.tox/
+.coverage
+.cache
+*.log
+
+# Data artifacts (vectors, temp, etc.)
+data/embeddings/
+data/reports/
+
+# Streamlit
+.streamlit/
+
+# Docker
+.dockerignore
+Dockerfile
+
+# Local docker-compose
+docker-compose.override.yml
+
